@@ -1,0 +1,14 @@
+package pattern.strategy;
+
+public class Vehicle {
+
+    DriveStrategy driveObject;
+
+    Vehicle(DriveStrategy driveObject){
+        this.driveObject = driveObject;
+    }
+
+    public void drive(){
+        driveObject.drive();
+    }
+}
