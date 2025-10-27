@@ -1,6 +1,6 @@
 package pattern.strategy;
 
-public class MainClass {
+public class Main {
     public static void main(){
         Vehicle vehicle = new SportsVehicle();
         vehicle.drive();
