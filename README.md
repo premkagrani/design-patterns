@@ -17,3 +17,12 @@ This repo covers:
 - 🔁 **Behavioral Patterns** — Communication and interaction between objects
 
 ---
+
+## 🚀 Implemented Patterns
+
+### 🔁 Behavioral Patterns
+
+| Pattern | Description |
+| :--- | :--- |
+| **[Strategy](src/pattern/strategy)** | Defines a family of algorithms, encapsulates each one, and makes them interchangeable. |
+| **[Observer](src/pattern/observer)** | Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically. |
