@@ -3,7 +3,7 @@ package pattern.observer;
 public class Main {
     public static void main(String[] args) {
         WeatherStation weatherStation = new WeatherStation();
-        PhoneDisplay phoneDisplay = new PhoneDisplay();
+        Observer phoneDisplay = new PhoneDisplay();
 
         weatherStation.registerObserver(phoneDisplay);
 
